@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    tools:context=".InsertionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Admission Form"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        />
+
+    <EditText
+        android:id="@+id/stRegno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registration Number"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColorHint="#757575"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#F1E1E1"
+        android:layout_marginTop="24dp"
+        />
+
+    <EditText
+        android:id="@+id/stName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColorHint="#757575"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#F1E1E1"
+        android:layout_marginTop="12dp"
+        />
+
+    <EditText
+        android:id="@+id/stStream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stream"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColorHint="#757575"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#F1E1E1"
+        android:layout_marginTop="12dp"
+        />
+
+    <EditText
+        android:id="@+id/stLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Qualification"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColorHint="#757575"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#F1E1E1"
+        android:layout_marginTop="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:background="#4CAF50"
+            android:textSize="16sp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginEnd="12dp"
+            />
+
+        <Button
+            android:id="@+id/btnShowData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Data"
+            android:textColor="#ffffff"
+            android:background="#2196F3"
+            android:textSize="16sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginStart="12dp"
+            />
+    </LinearLayout>
+</LinearLayout>
